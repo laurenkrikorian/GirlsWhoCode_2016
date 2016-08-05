@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<title>Lauren Krikorian's Portfolio</title>
+	</head>
+	<body onload="initAlert()">
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<h1><strong>Here are some of Lauren's CS projects:</strong></h1>
+		<center><img id="picture" onmouseover="changePicture()" src="giraffe2.jpg"></img></center>
+			<ul class="color"> With Python: 
+			<ul>
+				<li>Snow Animation</li>
+				<li>Obamacon Style Giraffe (Shown Above)</li>
+				<li>Mad Libs (click to enlarge...jk this doesn't work)</li>
+				<img class="bigger" onclick="enlarge()"src="madLibsCapture.jpg"></img>
+				<li>Random Outfit Generator</li>
+				<li>City Scoller</li>
+				<li>Text Adventure Game</li>
+			</ul>
+			</ul>
+			<ul class="color"> With Scratch: 
+			<ul>
+				<li>Paddle Ball Game (click to enlarge...this doesn't work either)</li>
+				<img class="bigger" onclick="enlarge()" src="scratchPaddleCap.jpg"></img>
+				<li>Jukebox</li>
+				<li>Pig</li>
+			</ul>
+			</ul>
+			<ul class="color"> With C++: 
+			<ul>
+				<li>Basic Circuits</li>
+				<li>Blinking Lights</li>
+				<li>Whisker Bot</li>
+			</ul>
+			</ul>
+			<br>
+			<ul><a href=# id="clickThis" onclick="aboutMe()"> Learn more about me...(click)</a> <!-- WHHY DOES IT GO TO TOP?!? -->
+			<p id="showUp" style="display: none"> I am a sixteen year old student from California who loves to code.<br> During my free time, you can find me on the pool deck, hanging out with friends, or in my bed j chillin'. </p></ul>
+	</body>
+	<link rel="stylesheet" href="cssportfolio1.css">
+	<script src="JSPortfolio1.js"></script>
+</html>

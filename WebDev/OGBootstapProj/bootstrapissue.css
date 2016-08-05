@@ -1,0 +1,22 @@
+body{
+	margin: 40px;
+}
+
+p{
+	margin: 15px;
+	margin-left: 40px;
+}
+
+li{
+	margin-left: 15px;
+}
+
+.item{
+	margin: 15px;
+	display: inline-block;
+}
+
+.images{
+	height: 40%;
+	width: 40%;
+}

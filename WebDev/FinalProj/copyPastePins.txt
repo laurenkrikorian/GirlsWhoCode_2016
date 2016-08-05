@@ -1,0 +1,41 @@
+FOOD:
+
+var image = 'https://pixabay.com/static/uploads/photo/2015/06/05/10/35/dishes-798316_960_720.png';
+var marker = new google.maps.Marker({position: {lat: , lng: }, map: map, title: , icon: image});
+		
+		
+FITNESS:
+
+var image = 'http://www.publicdomainpictures.net/pictures/120000/velka/basketball-ball.jpg';
+var marker = new google.maps.Marker({position: {lat: , lng: }, map: map, title: , icon: image});
+
+
+COSMETIC:
+
+var image = 'https://pixabay.com/static/uploads/photo/2016/03/31/18/20/heart-1294292_960_720.png';
+var marker = new google.maps.Marker({position: {lat: , lng: }, map: map, title: , icon: image});
+
+
+MUSIC:
+
+var image = 'http://images.clipartpanda.com/colorful-music-staff-clipart-music-note-hi.png';
+var marker = new google.maps.Marker({position: {lat: , lng: }, map: map, title: , icon: image});
+
+
+SPIRITUAL CARE:
+
+var image = 'https://www.google.com/search?q=spirit&safe=strict&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj99OaAn6POAhXh24MKHd0gCEEQ_AUICCgB&biw=1280&bih=619#safe=strict&tbs=sur:fmc&tbm=isch&q=spiritual+no+background&imgrc=JxBt1UnqEFcSeM%3A';
+var marker = new google.maps.Marker({position: {lat: , lng: }, map: map, title: , icon: image});
+
+
+CLASSES AND WORKSHOPS:
+
+var image = 'https://siterepository.s3.amazonaws.com/4685/160x92_graduation_symbolpng.png';
+var marker = new google.maps.Marker({position: {lat: , lng: }, map: map, title: , icon: image});
+
+
+
+
+
+extra spiritual pic:
+https://pixabay.com/static/uploads/photo/2016/03/17/20/05/mandala-1263751_960_720.png

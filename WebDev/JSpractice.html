@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS Example</title>
+		<script>
+			function picFuntion(){
+				if (pic.src.match("poodles.jpg")){
+					var pic2 = document.getElementById("pic");
+					pic.src = "bunny.jpg";
+				}
+				else {
+					var pic2 = document.getElementById("pic");
+					pic.src = "poodles.jpg"
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<button onclick="picFuntion()">Click Me!</button><br>
+		<img id="pic" src="poodles.jpg" ></img>
+		
+	</body>
+</html>
